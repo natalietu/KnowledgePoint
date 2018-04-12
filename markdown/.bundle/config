@@ -1,0 +1,2 @@
+---
+BUNDLE_BUILD__CHARLOCK_HOLMES: "--with-ldflags=-L.-Wl,-O1 -Wl,--as-needed -rdynamic -Wl,-export-dynamic -Wl,--no-undefined -lz -licuuc"
