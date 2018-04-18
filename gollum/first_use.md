@@ -9,6 +9,7 @@ gollum: 初次见面
 
 
 #### gollum -- A git-based Wiki
+
 #### 本地的环境：
 - MacBook Pro 10.10.5
 - Homebrew 1.6.0
@@ -16,7 +17,6 @@ gollum: 初次见面
 
 ## Install
 > 官方推荐的安装方式
-
 > ** The best way to install Gollum is with RubyGems **
 
 ### 尝试方法一
