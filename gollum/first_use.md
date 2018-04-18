@@ -45,6 +45,7 @@ gollum: 初次见面
 		执行以下命令：（你可以用 Bundler 的 Gem 源代码镜像命令，这样你不用改你的 Gemfile 的 source）
 		$ bundle config mirror.https://rubygems.org https://gems.ruby-china.org
 		再执行a命令，貌似ok了
+		最终安装依旧失败，尝试方法二
 
 
 ### 尝试方法二
