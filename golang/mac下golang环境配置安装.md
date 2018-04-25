@@ -1,11 +1,15 @@
 Mac下golang环境配置安装
 ====================
-- 参考文档
-	- [MacOs下安装golang](https://blog.csdn.net/skytoup/article/details/48877839)
-	- [IntelliJ IDEA开发golang环境配置](https://studygolang.com/articles/6011)
-	- [Go开发：Mac上安装Go环境和VsCode](https://www.jianshu.com/p/0b2b80336d47)
+
 	
 ### 安装
+> Go 语言支持以下系统：
+
+- Linux
+- FreeBSD
+- Mac OS X（也称为 Darwin）
+- Window
+
 #### 1. 尝试brew安装
 	
 	brew install go
@@ -43,14 +47,26 @@ Mac下golang环境配置安装
 
 > GOPATH目录下新建一个hello.go文件
 	
-	package main
-	import "fmt"
-	func main() {
-   		fmt.Printf("hello, world!\n")
-	}
+		package main
+		import "fmt"
+		func main() {
+   				fmt.Printf("hello, world!\n")
+		}
 	
 	保存后执行 go run hello.go
 	输出：hello, world!  #成功
+	
+
+
+
+-------
+
+	
+- 参考文档
+	- [MacOs下安装golang](https://blog.csdn.net/skytoup/article/details/48877839)
+	- [IntelliJ IDEA开发golang环境配置](https://studygolang.com/articles/6011)
+	- [Go开发：Mac上安装Go环境和VsCode](https://www.jianshu.com/p/0b2b80336d47)
+	- [Go 语言教程](http://www.runoob.com/go/go-environment.html)
 
 
 

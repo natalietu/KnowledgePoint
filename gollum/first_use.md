@@ -1,12 +1,6 @@
 gollum: 初次见面 
 ==================================== 
 
-- 参考文档：
-	- [gollum:给wiki插上git的翅膀](https://www.jianshu.com/p/9c35812b9bae)
-	- [Mac下基于Github和jekyll搭建博客](https://www.jianshu.com/p/779379e48ee9)
-	- [gollum github](https://github.com/gollum/gollum)
-	
-
 
 #### gollum -- A git-based Wiki
 
@@ -108,3 +102,22 @@ gollum: 初次见面
 - gollum 如何退出
 
 		CTRL+C  
+		
+- 不支持中文标题解决方案
+	- 安装`gollum-rugged_adapter`
+			
+			sudo gem install gollum-rugged_adapter
+	
+	- 运行`gollum`时, 加上参数`--adapter`为`rugged`
+	
+			gollum --adapter rugged
+	
+			
+
+-----------
+- 参考文档：
+	- [gollum:给wiki插上git的翅膀](https://www.jianshu.com/p/9c35812b9bae)
+	- [Mac下基于Github和jekyll搭建博客](https://www.jianshu.com/p/779379e48ee9)
+	- [gollum github](https://github.com/gollum/gollum)
+	
+
