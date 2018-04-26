@@ -4,7 +4,7 @@
 
 ## 二、安装客户端
 - `Libmemcached`、`php-memcached`扩展，正确安装顺序Libmemcached > php-memcached
-- `php-memcache` 扩展
+
 
 ### 安装 php-memcached扩展
 > 1、下载php-memcached扩展
@@ -157,7 +157,8 @@
 ### 安装 libmemcached	
 > `注意`：以上第4、点提示依赖`libmemcached`，实际本机未安装，执行安装，然后再执行./configure...
 
-> 1、brew安装	
+> brew安装	
+
 	$ brew install libmemcached
 	
 	输出：
