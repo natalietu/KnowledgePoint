@@ -82,6 +82,10 @@
 	$ npm run dev
 	
 	
+#### 参考文档
+- [基于webpack4.0+手动搭建vue开发环境](https://github.com/licongwen/webpack-vue-proj)
+	
+	
 	
 	
  	
