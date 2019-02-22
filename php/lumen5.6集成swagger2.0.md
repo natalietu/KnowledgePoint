@@ -3,6 +3,7 @@
 - 参考文档
     - [DarkaOnLine/L5-Swagger](https://github.com/DarkaOnLine/L5-Swagger)
     - [Laravel5.5中集成Swagger3.0文档](https://caihongtengxu.github.io/2018/08/27/20180827/)
+    - [Laravel5.5.x集成swagger](https://www.cnblogs.com/jiang-xy/p/9560095.html)
 
 
 - `composer require "darkaonline/l5-swagger:5.6.*"`
